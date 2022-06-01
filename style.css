@@ -27,9 +27,64 @@
     color: var(--main-color);
 }
 
+.ms_main_color_bg{
+    background-color: var(--main-color);
+}
+
 .social i{
     height: 40px;
     width: 40px;
     text-align: center;
     line-height: 40px;
+}
+
+.navbar a,.navbarspan{
+    color: white;
+}
+
+.ms_toggler.navbar-toggler {
+    border-color: white;
+}
+
+
+.ms_br_form{
+    margin: 15px 0;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.ms_form_font{
+    font-size: 1.5rem;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: black;
+  }
+
+
+.ms_input_form{
+    padding: 0;
+    padding: 6px 0 15px 1px;
+}
+
+.cross-center
+{
+    display: none;
+    position: absolute;
+    color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+}
+
+
+
+.position-relative:hover .cross-center{
+    display: inline-block;
+}
+
+.position-relative:hover img{
+      filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(50deg) saturate(1000%) contrast(0.8);
 }
