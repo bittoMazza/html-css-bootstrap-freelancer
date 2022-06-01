@@ -81,11 +81,11 @@
 
 
 
-.position-relative:hover .cross-center{
+.hover-item:hover .cross-center{
     display: inline-block;
 }
 
-.position-relative:hover img{
+.hover-item:hover img{
       filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(50deg) saturate(1000%) contrast(0.8);
 }
 
